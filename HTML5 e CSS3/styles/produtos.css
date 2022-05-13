@@ -1,0 +1,25 @@
+header {
+    background-color: #BBBBBB;
+}
+
+.logo {
+    display: inline-block;
+    width: 40%;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}

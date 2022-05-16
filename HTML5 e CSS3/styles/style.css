@@ -1,52 +1,154 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
 
-    #banner {
-        width: 100%;
-    }
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
 
-    .principal {
-        background: #CCCCCC;
-        padding: 30px;
-    }
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
 
-    .titulo-principal {
-        padding-left: 20px;
-    }
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
 
-    p, .titulo-centralizado {
-        text-align: center;
-    }
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
 
-    #missao {
-        font-size: 20px;
-    }
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
 
-    em strong {
-        color: #FF0000;
-    }
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px #000000;
+    border-radius: 10px;
+}
 
-    .itens {
-        font-style: italic;
+.produtos li:hover {
+    border-color: #C78C19;
+}
 
-    }
+.produtos li:hover h2 {
+    font-size: 34px;
+}
 
-    .beneficios {
-        background: #FFFFFF;
-        padding: 20px;
-    }
+.produtos li:active {
+    border-color: #088C19;
+}
 
-    h2 {
-        text-align: center;
-    }
 
-    ul {
-        display: inline-block;
-        vertical-align: top;
-        width: 20%;
-        margin-right: 15%;
-    }
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
-    .imagem_beneficios {
-        width: 50%;
-    }
+.produto-descricao {
+    font-size: 18px;
+}
 
-    
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("../imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    /* transition: 1s background-color; */
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    /* background-color: #006400; */
+    background-color: darkgreen;
+    transform: scale(1.01);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+}
+
+
+td, th {
+    border: solid 1px #000000;
+    padding: 8px 15px;
+}

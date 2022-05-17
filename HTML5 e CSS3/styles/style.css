@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0px;
@@ -91,8 +95,7 @@ footer {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+  
     /* text-align: center; */
 }
 
@@ -152,3 +155,97 @@ td, th {
     border: solid 1px #000000;
     padding: 8px 15px;
 }
+
+
+/* CSS da página inicial*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.conteudo-beneficios {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* .imagem-beneficios {
+    float: right;
+} */
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens::before {
+    content: "🟊";
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background-color: #888888;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(white, #888888);
+}
+
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
